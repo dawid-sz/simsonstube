@@ -1,0 +1,35 @@
+#main {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../Images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-head {
+    text-align: center;
+    color: white;
+    font-family: var(--primary-font);
+}
+
+.socials {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    font-size: 5vw;
+    margin-top: 1rem;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center center;
+}
