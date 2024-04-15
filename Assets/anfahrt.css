@@ -4,8 +4,7 @@
     background-position: center;
     color: white;
     font-family: var(--secondary-font);
-
-    padding-bottom: 400px;
+    padding-bottom: 2rem;
 }
 
 .openstreetmap-karte {

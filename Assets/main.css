@@ -14,27 +14,60 @@
 }
 
 .main-head {
-    text-align: center;
+    padding-top: 30vw;
     color: white;
     font-family: var(--primary-font);
 }
 
 .main-head h1 {
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 16.5vw;
 }
 
 .main-head h2 {
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 9vw;
+    padding-top: 1rem;
+}
+
+.main-head p {
+    font-weight: 100;
+    padding-top: 1rem;
+    font-family: var(--secondary-font);
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bxs-chevrons-down {
+    color: white;
+    font-size: 15vw;
+    padding-top: 5rem;
+    animation-name: moveUpDown;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .socials {
-    color: white;
     display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: 10px;
     gap: 2rem;
-    font-size: 1.3rem;
-    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 .socials a {

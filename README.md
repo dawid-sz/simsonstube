@@ -22,3 +22,8 @@ Local service shop for simsons mopeds
 - creating "anfahrt" section
 - adding interactional google map with the adress
 - styling the "anfahrt" section
+
+
+16.04.2024
+- added and styled contact section
+- also added a footer

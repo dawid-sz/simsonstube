@@ -45,3 +45,17 @@ body {
     font-family: var(--secondary-font);
     text-align: center;
 }
+
+.fixed-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    font-family: var(--primary-font);
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.fixed-footer a {
+    text-decoration: none;
+    color: white;
+}
