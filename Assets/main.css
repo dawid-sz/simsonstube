@@ -19,11 +19,21 @@
     font-family: var(--primary-font);
 }
 
+.main-head h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.main-head h2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
 .socials {
     color: white;
     display: flex;
     gap: 2rem;
-    font-size: 5vw;
+    font-size: 1.3rem;
     margin-top: 1rem;
 }
 

@@ -36,3 +36,12 @@ body {
     right: 0;
     top: 0;
 }
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 3;
+    color: white;
+    font-family: var(--secondary-font);
+    text-align: center;
+}
