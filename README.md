@@ -27,3 +27,9 @@ Local service shop for simsons mopeds
 16.04.2024
 - added and styled contact section
 - also added a footer
+
+
+18.04.2024
+- animated icons in the hero section
+- fixed visual bugs in the mobile view
+- contact section adjusted for the mobile view

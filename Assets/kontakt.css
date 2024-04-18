@@ -14,7 +14,6 @@ form {
   input[type="text"],
   input[type="email"],
   input[type="tel"],
-  input[type="checkbox"],
   select,
   textarea {
     width: 100%;
@@ -56,12 +55,19 @@ form {
     font-family: var(--secondary-font);
   }
 
+  .checkbox-label {
+    margin-bottom: 1.5rem;
+  }
+
   .checkbox-text {
     font-family: var(--secondary-font);
     font-weight: 200;
     font-size: .8rem;
-    display: inline-block;
-    vertical-align: middle;
+    display: inline;
+  }
+
+  .checkbox-text a {
+    text-decoration: none;
   }
   
   .head-title {
