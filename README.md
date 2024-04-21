@@ -33,3 +33,9 @@ Local service shop for simsons mopeds
 - animated icons in the hero section
 - fixed visual bugs in the mobile view
 - contact section adjusted for the mobile view
+
+
+22.04.2024
+- changed background of the menu bar
+- created a slider for the leistungen section with the swiper api
+- created cards for the leistungen sections so each has it's own title, description and picture of the services that are offered
