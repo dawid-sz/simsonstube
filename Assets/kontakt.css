@@ -1,5 +1,5 @@
 #kontakt {
-    background-color: #4a4746;
+    background-color: var(--primary-color);
     color: white;
     padding-bottom: 2rem;
 }
@@ -27,7 +27,7 @@ form {
     border-right: 3px solid white;
     outline: none;
     color: white;
-    background-color: #4a4746;
+    background-color: var(--primary-color);
   }
   
   .kontakt-container {
@@ -42,7 +42,7 @@ form {
   }
   
   .btn-send {
-    background-color: #4a4746;
+    background-color: var(--primary-color);
     color: white;
     padding: 12px 20px;
     border: none;

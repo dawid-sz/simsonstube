@@ -39,3 +39,8 @@ Local service shop for simsons mopeds
 - changed background of the menu bar
 - created a slider for the leistungen section with the swiper api
 - created cards for the leistungen sections so each has it's own title, description and picture of the services that are offered
+
+
+13.07.2024
+- modifying main colors
+- fixing the display of the pictures in "Unsere Leistungen" section

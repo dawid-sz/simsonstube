@@ -5,6 +5,8 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Nunito', serif;
     scroll-behavior: smooth;
+    --primary-color: #23260e;
+    --secondary-color: #807653;
 }
 
 body {
