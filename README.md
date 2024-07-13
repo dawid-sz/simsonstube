@@ -44,3 +44,7 @@ Local service shop for simsons mopeds
 13.07.2024
 - modifying main colors
 - fixing the display of the pictures in "Unsere Leistungen" section
+
+
+14.07.2024
+- adjusting view for bigger screens

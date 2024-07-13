@@ -98,3 +98,36 @@
     animation-timing-function: linear;
     animation-delay: 0s;
 }
+
+
+/* MEDIA QUERY BREAKE POINTS */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-head {
+        padding-top: 9vw;
+    }
+
+    .bxs-chevrons-down {
+        font-size: 8vw;
+        padding-top: 0.3rem;
+    }
+
+    .socials {
+        display: inline-flex;
+    }
+
+    .main-head h1 {
+        font-size: 12vw;
+    }
+    
+    .main-head h2 {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+}
+
+@media only screen and (min-width: 1536px) {
+}

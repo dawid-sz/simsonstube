@@ -14,7 +14,7 @@ body {
 } 
 
 .topnav {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     font-family: var(--primary-font);
@@ -60,4 +60,68 @@ body {
 .fixed-footer a {
     text-decoration: none;
     color: white;
+}
+
+
+/* MEDIA QUERY BREAKE POINTS */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: calc(18px + 0.390625vw);
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 100;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px) {
+    body {
+        font-size: calc(19px + 0.390625vw);
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    body {
+        font-size: calc(21px + 0.390625vw);
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: inline-flex;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+    
 }
